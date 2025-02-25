@@ -17,7 +17,7 @@ The deployment consists of:
 ## Deployment Steps
 ```
 # 1. Clone the Repository
-git clone https://github.com/westonb/terraform-secure-static-site.git
+git clone https://github.com/bertlshoferwe/High_Avaliable_Website
 cd terraform-secure-static-site
 
 # 2. Configure AWS Credentials
