@@ -18,7 +18,7 @@ The deployment consists of:
 ```
 # 1. Clone the Repository
 git clone https://github.com/bertlshoferwe/High_Avaliable_Website
-cd terraform-secure-static-site
+cd Backend
 
 # 2. Configure AWS Credentials
 aws configure
