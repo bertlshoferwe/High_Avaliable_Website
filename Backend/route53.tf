@@ -1,5 +1,9 @@
+resource "aws_route53_zone" "primary" {
+  name = "westonb.com"
+}
+
 resource "aws_route53_record" "www" {
-  zone_id = "YOUR_ZONE_ID"
+  zone_id = aws_route53_zone.primary.zone_id
   name    = "westonb.com"
   type    = "A"
 
